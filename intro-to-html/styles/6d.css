@@ -1,0 +1,14 @@
+p { font-family: montserrat;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;}
+ .title
+ {font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;}
+ .subtitle
+ {font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+ .last
+ {text-decoration: underline;}

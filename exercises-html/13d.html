@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                width: 400px;
+                box-shadow: 0 0 5px rgb(223, 221, 221);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .all-inboxes{
+                color: grey;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .email{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .image{
+                margin-right: 10px;
+            }
+            .profile-picture{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+                object-fit: cover;
+            }
+            .email-content{
+                flex: 1;
+            }
+            .email-header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 3px;
+            }
+            .sender-name{
+                font-weight: bold;
+                font-size: 17px;
+            }
+            .time{
+                color: gray;
+                font-size: 14px;
+                margin-right: 10px;
+            }
+            .sales{
+                font-weight: bold;
+                font-size: 14px;
+            }
+            .bottom{
+                color: grey;
+                font-size: 14px;
+                margin-top: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="all-inboxes">ALL INBOXES</div>
+            <div class="email">
+                <div class="image">
+                    <img class="profile-picture" src="download.jpg">
+                </div>
+                <div class="email-content">
+                    <div class="email-header">
+                        <div class="sender-name">Chewy Promotions</div>
+                        <div class="time">4:58 PM</div>
+                    </div>
+                    <div class="sales">Biggest sales of the year!</div>
+                    <div class="bottom">
+                        Hey there! we`re writing to tell you about our...
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="email">
+                <div class="image">
+                    <img class="profile-picture" src="download.2.jpg">
+                </div>
+                <div class="email-content">
+                    <div class="email-header">
+                        <div class="sender-name">Best Buy</div>
+                        <div class="time">12:32 PM</div>
+                    </div>
+                    <div class="sales">You`re Best Buy eReceipt</div>
+                    <div class="bottom">
+                        Thank you for shopping Best Buy, here is...
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="email">
+                <div class="image">
+                    <img class="profile-picture" src="download.3.jpg">
+                </div>
+                <div class="email-content">
+                    <div class="email-header">
+                        <div class="sender-name">Netflix</div>
+                        <div class="time">9:00 AM</div>
+                    </div>
+                    <div class="sales">Here`s what`s coming soon to Netflix</div>
+                    <div class="bottom">
+                        Brand new movies and shows, old favorites...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
